@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="titulo">
+    <h1>Conversor de Unidades</h1>
+    
+    <div class="body">  
+    Cantidad: <input type="number" id="cantidad" onchange="convertir()"><br><br>
+    Convertir De:
+    <select id="de" onchange="convertir()">
+        <option value="1">Centímetro</option>
+        <option value="2">Kilómetro</option>
+        <option value="3">Metro</option>
+        <option value="4">Pulgada</option>
+        <option value="5">Milla</option>
+    </select><br><br>
+    Convertir A:
+    <select id="a" onchange="convertir()">
+        <option value="1">Centímetro</option>
+        <option value="2">Kilómetro</option>
+        <option value="3">Metro</option>
+        <option value="4">Pulgada</option>
+        <option value="5">Milla</option>
+    </select><br>
+    <h1 id="resultado" class="resul">Resultado:</h1>
+    </div>
+    </div>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

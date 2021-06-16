@@ -1,0 +1,48 @@
+Inicio
+Definir Area1, Area2, Area3, Area4
+
+Area1= Varas Cuadradas(v2)
+Leer Area1
+Convertir Area1 en m2,mz,hc{
+	Area1.m2.value = Area1.v2.value*0.6988
+	Escribir Resultado
+	Area1.mz.value = Area1.v2.value*0.0001
+	Escribir Resultado
+	Area1.hc.value = Area1.v2.value*0.0000698
+	Escribir Resultado
+}
+
+Area2= Metros Cuadrados(m2)
+Leer Area2
+Convertir Area2 en v2,mz,hc{
+	Area2.v2.value = Area2.m2.value*1.4308
+	Escribir Resultado
+	Area2.mz.value = Area2.m2.value*0.0001431
+	Escribir Resultado
+	Area2.hc.value = Area2.m2.value*0.0001
+	Escribir Resultado
+}
+
+Area3 = Manzanas(mz)
+Leer Area3
+Convertir Area3 en v2,m2,hc{
+	Area3.v2.value = Area3.mz.value*10000
+	Escribir Resultado
+	Area3.m2.value = Area3.mz.value*6988
+	Escribir Resultado
+	Area3.hc.value = Area3.mz.value*0.6988
+	Escribir Resultado
+}
+
+Area4 = Hectareas(hc)
+Leer Area4
+Comvertir Area4 en v2,m2,mz{
+	Area4.v2.value = Area4.hc.value*14310.25
+	Escribir Resultado
+	Area4.m2.value = Area4.hc.value*10000
+	Escribir Resultado
+	Area4.mz.value = Area4.hc.value*1.43102
+	Escribir Resultado
+}
+
+FinProceso

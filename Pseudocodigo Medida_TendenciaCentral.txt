@@ -1,0 +1,44 @@
+Inicio
+Declaración de variables
+var d1,d2,d3;
+var mediana;
+var moda;
+var s; ---desviacion estandar
+var potencia1,potencia2,potencia3;
+var restita1,restita2,restita3;
+var sumapotencia;
+var division;
+Escribir "ingresar datos";
+Leer d1,d2,d3;
+mediana=(d1+d2+d3)/3;
+Si d1=d2| |d1=d3
+    moda=d1;
+        Sino
+           Si d2=d3
+               moda=d2;
+	Sino
+                     moda= "No hay valores que sean iguales";
+            FinSi
+FinSi
+restita1=d1-mediana;
+restita2=d2-mediana;
+restita3=d3-mediana;
+
+potencia1=(restita1)^2;
+potencia2=(restita2)^2;
+potencia3=(restita3)^2;
+
+sumapotencia=potencia1+potencia2+potencia3;
+
+division=sumapotencia/(3-1)
+
+s=raíz cuadrada(division)
+
+Escribir "Media:" +media;
+Escribir "Moda:" +moda;
+Escribir "Desviación estándar:" +s;
+
+Fin
+
+
+	        	

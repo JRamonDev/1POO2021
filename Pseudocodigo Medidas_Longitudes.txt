@@ -1,0 +1,99 @@
+Inicio
+Declaracion de variables
+var valor;
+var de,
+var a;
+var resultado=0;
+Escribir "Ingrese el valor a convertir"
+Leer valor;
+   Si(de==1&&a==2){
+        resultado=valor/100000;
+    }
+    //Centimetro a Metro
+    Sino si(de==1&&a==3){
+        resultado=valor/100;
+    }
+    //Centimetro a Pulgada
+    Sino si(de==1&&a==4){
+        resultado=valor/2.54;
+    }
+    //Centimetro a Milla
+    Sino si(de==1&&a==5){
+        resultado=valor/160934;
+    }
+
+    //kilometro a Centimetro
+   Sino si(de==2&&a==1){
+        resultado=valor*100000;
+     }
+     //Metro a Centimetro
+     Sino si(de==3&&a==1){
+         resultado=valor*100;
+     }
+     //Pulgada a Centimetro
+     Sino si(de==4&&a==1){
+        resultado=valor*2.54;
+    }
+    //Milla a Centimetro
+    Sino si(de==5&&a==1){
+        resultado=valor*160934;
+    }
+
+    //Kilometro a Metro
+    Sino si(de==2&&a==3){
+        resultado=valor*1000;
+    }
+    //Kilometro a Pulgada
+    Sino si(de==2&&a==4){
+        resultado=valor*39370;
+    }
+    //Kilometro a Milla
+   Sino si(de==2&&a==5){
+        resultado=valor/1.609;
+    }
+
+    //Metro a Kilometro
+    Sino si(de==3&&a==2){
+        resultado=valor/1000;
+    }
+    //Pulgada a Kilometro
+    Sino si(de==4&&a==2){
+        resultado=valor/39370;
+    }
+    //Milla a Kilometro
+    Sino si(de==5&&a==2){
+        resultado=valor*1.609;
+    }
+
+    //Metro a Pulgada
+    Sino si(de==3&&a==4){
+        resultado=valor*39.37;
+    }
+    //Metro a Milla
+    sino si(de==3&&a==5){
+        resultado=valor/1609;
+    }
+
+    //Pulgada a Metro
+    sino si(de==4&&a==3){
+        resultado=valor/39.37;
+    }
+    //Milla a Metro
+    sino si(de==5&&a==3){
+        resultado=valor*1609;
+    }
+
+    //Pulgada a Milla
+    sino si(de==4&&a==5){
+        resultado=valor/63360;
+    }
+
+    //Milla a Pulgada
+    sino si(de==5&&a==4){
+        resultado=valor*63360;
+    //cm a cm, km a km, mts a mts, pulgada a pulgada, milla a milla
+   sino
+         resultado=valor;
+
+Escribir "Resultado:" +resultado;
+Fin
